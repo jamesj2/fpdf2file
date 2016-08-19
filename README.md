@@ -1,6 +1,8 @@
 # FPDF Image
 
+Original written @ http://www.fpdf.org/en/script/script76.php
 
+## Description
 
 The standard FPDF class builds the document entirely in memory, which can be problematic for large documents. This extension saves the pages to the destination file as soon as they are finished, which solves the issue.
 

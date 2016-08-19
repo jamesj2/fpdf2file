@@ -1,0 +1,11 @@
+{
+    "name": "jamesj2/fpdf2file",
+    "homepage": "https://github.com/jamesj2/fpdf2file",
+    "license": "no usage restriction",
+    "require": {
+        "php": ">5.3.0",
+    },
+    "autoload": {
+        "classmap": ["fpdf2file/"]
+    }
+}

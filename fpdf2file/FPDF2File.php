@@ -17,7 +17,7 @@ class FPDF2File extends FPDF
 
     function Open($file='doc.pdf')
     {
-        if(FPDF_VERSION<'1.8')
+        if(self::VERSION<'1.8')
             $this->Error('Version 1.8 or above is required by this extension');
         $this->f=fopen($file,'wb');
         if(!$this->f)
